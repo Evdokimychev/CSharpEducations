@@ -34,13 +34,12 @@ int numberDay = int.Parse(Console.ReadLine() ?? "");
 // Логика вычеслений
 string result = "такого дня недели нет";
 if (numberDay == 1) result = "Понедельник";
-if (numberDay == 2) result = "Вторник";
-if (numberDay == 3) result = "Среда";
-if (numberDay == 4) result = "Четверг";
-if (numberDay == 5) result = "Пятница";
-if (numberDay == 6) result = "Суббота";
-if (numberDay == 7) result = "Воскресение";
+else if (numberDay == 2) result = "Вторник";
+else if (numberDay == 3) result = "Среда";
+else if (numberDay == 4) result = "Четверг";
+else if (numberDay == 5) result = "Пятница";
+else if (numberDay == 6) result = "Суббота";
+else if (numberDay == 7) result = "Воскресение";
 
 // Метод 3 (интерполяция) - вывод данных
 Console.WriteLine($"День {numberDay} -> {result}");
-

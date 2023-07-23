@@ -5,15 +5,15 @@
 
 // Организация ввода данных
 Console.Write("Введите целое число A: ");
-int number = int.Parse(Console.ReadLine() ?? "");
+int number1 = int.Parse(Console.ReadLine() ?? "");
 
 Console.Write("Введите целое число B: ");
 int number2 = int.Parse(Console.ReadLine() ?? "");
 
 // Логика вычеслений
 string result = "";
-if (number == number2 * number2) result = "да";
+if (number1 == number2 * number2) result = "да";
 else result = "нет";
 
 // Метод 3 (интерполяция) - вывод данных
-Console.WriteLine($"a = {number}, b = {number2} -> {result}");
+Console.WriteLine($"a = {number1}, b = {number2} -> {result}");
