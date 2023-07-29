@@ -1,4 +1,4 @@
-﻿// Задача 23: Напишите программу, которая принимает на вход пятизначное число 
+﻿// Задача 19: Напишите программу, которая принимает на вход пятизначное число 
 // и проверяет, является ли оно палиндромом.
 
 // Пример:
@@ -9,7 +9,7 @@
 // -------------------------- Начало программы ----------------------------------
 #region --- 00. Configuration ---
 Console.Clear ();
-Console.Title = "Задача 23. Проверка пятизначного числа на палиндромность";
+Console.Title = "Задача 19. Проверка пятизначного числа на палиндромность";
 
 Console.OutputEncoding = System.Text.Encoding.UTF8;
 var curConsoleColor = Console.ForegroundColor;
@@ -64,7 +64,7 @@ static int GetNumberFromUser (string welcomeMessage, string errorMessage)
     }
 }
 
-// Определяем функцию вывода таблицы кубов
+// Определяем функцию распознавания числа как палиндрома
 static void GetPalindromicNumber (int number)
 {  
     while (number < 10000 || number >=100000) 
